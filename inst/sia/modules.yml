@@ -1,0 +1,6 @@
+IRR2FPR:
+  title: IRR to False Positive Rate
+  category: Reliability
+  binding:
+    ui: IRR2FPR_ui
+    server: IRR2FPR_server
