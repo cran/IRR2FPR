@@ -5,11 +5,12 @@
 \title{Interactive Module for Inter-Rater Reliability to False Positive Rate Conversion}
 \description{
 This module allows users to convert inter-rater reliability (IRR) to false positive rate (FPR)
-as described in Bartoš and Martinková (2022).
+as described in Bartoš and Martinková (2024).
 }
 \references{
-Bartoš, F., & Martinková, P. (2022). Selecting applicants based on multiple ratings:
-Using binary classification framework as an alternative to inter-rater reliability. \doi{10.48550/arXiv.2207.09101}
+Bartoš, F., & Martinková, P. (2024). Selecting applicants based on multiple ratings:
+Using binary classification framework as an alternative to inter-rater reliability.
+British Journal of Mathematical and Statistical Psychology. \doi{10.1111/bmsp.12343}
 }
 \author{
 František Bartoš

@@ -1,0 +1,9 @@
+citHeader("To cite IRR2FPR in publications use:")
+
+bibentry(bibtype = "article",
+         title = "Assessing quality of selection procedures: Lower bound of false positive rate as a function of inter-rater reliability",
+         author = c(person("František",  "Bartoš"),
+                    person("Patrícia", "Martinková")),
+         journal = "British Journal of Mathematical and Statistical Psychology",
+         year = 2024,
+         url = "https://doi.org/10.1111/bmsp.12343")

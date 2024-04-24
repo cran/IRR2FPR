@@ -5,7 +5,7 @@
 
 This package implements a Shiny Item Analysis module for computing
 binary classification metrics from inter-rater reliability based on
-Bartoš & Martinková (2022).
+Bartoš & Martinková (2024).
 
 ## Installation
 
@@ -82,7 +82,13 @@ points(prop_sel, compute_false_negative_rate(IRR = IRR, proportion_selected = pr
 
 ## References
 
-Bartoš, F., & Martinková, P. (2022). Selecting applicants based on
+Bartoš, F., & Martinková, P. (2024). Selecting applicants based on
 multiple ratings: Using binary classification framework as an
-alternative to inter-rater reliability.
-(<https://arxiv.org/abs/2207.09101v2>)
+alternative to inter-rater reliability. British Journal of Mathematical
+and Statistical Psychology. (<https://doi.org/10.1111/bmsp.12343>)
+
+Erosheva, E. A., Martinková, P., & Lee, C. J. (2021). When zero may not
+be zero: A cautionary note on the use of inter-rater reliability in
+evaluating grant peer review. Journal of the Royal Statistical Society
+Series A: Statistics in Society, 184(3), 904-919.
+(<https://doi.org/10.1111/rssa.12681>)

@@ -6,7 +6,7 @@
 #' @title Interactive Module for Inter-Rater Reliability to False Positive Rate Conversion
 #'
 #' @description This module allows users to convert inter-rater reliability (IRR) to false positive rate (FPR)
-#' as described in Bartoš and Martinková (2022).
+#' as described in Bartoš and Martinková (2024).
 #'
 #' @author
 #' František Bartoš
@@ -14,8 +14,9 @@
 #' @name IRR2FPR
 #' @family SIAmodules package
 #'
-#' @references Bartoš, F., & Martinková, P. (2022). Selecting applicants based on multiple ratings:
-#' Using binary classification framework as an alternative to inter-rater reliability. \doi{10.48550/arXiv.2207.09101}
+#' @references Bartoš, F., & Martinková, P. (2024). Selecting applicants based on multiple ratings:
+#' Using binary classification framework as an alternative to inter-rater reliability.
+#' British Journal of Mathematical and Statistical Psychology. \doi{10.1111/bmsp.12343}
 #'
 NULL
 
@@ -74,8 +75,8 @@ IRR2FPR_ui <- function(id, imports = NULL, ...) {
       "This module transforms the inter-rater reliability into the false-positive rate and
       other binary classification metrics. Details of the transformation are described in ",
       a(
-        "Barto\u0161 and Martinkov\u00e1 (2022)",
-        href = "http://doi.org/10.48550/arXiv.2207.09101",
+        "Barto\u0161 and Martinkov\u00e1 (2024)",
+        href = "https://doi.org/10.1111/bmsp.12343",
         target = "_blank", .noWS = "after"
       ), ". We use the inter-rater reliability and the proportion of selected candidates
       from NIH data set of ",
@@ -148,9 +149,9 @@ IRR2FPR_ui <- function(id, imports = NULL, ...) {
     h4("References"),
     HTML('<ul class = "biblio">
 
-               <li>Barto\u0161, F., & Martinkov\u00e1, P. (2022).
+               <li>Barto\u0161, F., & Martinkov\u00e1, P. (2024).
                 Selecting applicants based on multiple ratings: Using binary classification framework as an alternative to inter-rater reliability
-               <a href = "https://doi.org/10.48550/arXiv.2207.09101", target = "_blank">doi:10.48550/arXiv.2207.09101</a>
+               <a href = "https://doi.org/10.1111/bmsp.12343", target = "_blank">doi:10.1111/bmsp.12343</a>
                </li>
 
                <li>Erosheva, E., Martinkov\u00e1, P., & Lee, C. (2021).
